@@ -1,0 +1,193 @@
+#find_dynamic_area01{
+    height: 230px;
+    flex: 1;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FAFAFA;
+    border-radius: 5px;
+    margin-left: 11px;
+    margin-right: 11px;
+    margin-bottom: 10px;
+
+}
+#find_dynamic_area01_up{
+    height: 150px;
+    width: 100%;
+
+}
+
+#find_dynamic_area01_down{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.find_dynamic_area01_down{
+    height: 70px;
+    flex: 1;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+
+}
+.find_dynamic_area01_down_img{
+    height:40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+
+}
+.find_dynamic_area01_down_name{
+    height: 15px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 13px;
+
+}
+/********************/
+.find_dynamic_area02{
+    /*height: 922px;*/
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+    background-color: #FAFAFA;
+    border-radius: 5px;
+    margin-left: 11px;
+    margin-right: 11px;
+    margin-bottom: 11px;
+}
+.find_dynamic_area02_up{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+.find_dynamic_area02_up1{
+    height: 70px;
+    width:70px;
+    background-image: url(../../img/png/书签.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.find_dynamic_area02_up1 div{
+    height: 20px;
+    width: 70px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+}
+
+.find_dynamic_area02_up2{
+    height: 70px;
+    width:110px;
+    line-height: 70px;
+    text-align: center;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+
+.find_dynamic_area02_center{
+    height: 205px;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+
+}
+.find_dynamic_area02_center1{
+    height: 150px;
+    margin-bottom: 6px;
+}
+.find_dynamic_area02_img{
+    height: 150px;
+    flex: 1;
+    margin: 0 6px 0px 6px;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+.find_dynamic_area02_center2{
+    height: 20px;
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+.find_dynamic_area02_center3{
+    height: 20px;
+    font-size: 14px;
+    color: #616161;
+}
+
+
+.find_dynamic_area02_down{
+    flex: 1;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+
+}
+.find_dynamic_area02_div{
+    height: 100px;
+    display: flex;
+    margin: 10px 6px 10px 6px;
+    border: 1px gainsboro solid;
+}
+
+.find_dynamic_area02_div_left{
+     height: 90px;
+    flex: 1;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    margin-right: 7px;
+ }
+.find_dynamic_area02_div_right{
+    height: 90px;
+    flex: 3;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+.find_dynamic_area02_div_right1{
+    width: 100%;
+    height: 35px;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 35px;
+
+}
+.find_dynamic_area02_div_right2{
+    width: 100%;
+    height: 25px;
+    font-size: 14px;
+    color: #616161;
+    line-height: 25px;
+
+}
+.find_dynamic_area02_div_right3{
+    margin-top: 6px;
+    width: 30px;
+    height: 18px;
+    background-color: #90A4AE;
+    font-size: 12px;
+    border-radius: 4px;
+    text-align: center;
+}

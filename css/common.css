@@ -1,0 +1,19 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "微软雅黑 ";
+    font-weight: 500;
+}
+
+.border{
+    border: red 1px solid;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.dynamic_like_style{
+    margin: 13px;
+    border-radius: 5px;
+}
+

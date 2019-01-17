@@ -1,0 +1,30 @@
+#menus{
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: #616161 1px solid;
+    background-color: #FAFAFA;
+}
+.menus_style{
+    height: 52px;
+    flex: 1;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+.menus_img{
+    height: 30px;
+    width: 45px;
+    background-repeat: no-repeat;
+    background-size:50%;
+    background-position: center;
+}
+.menus_name{
+    height: 20px;
+    width: 45px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 15px;
+}

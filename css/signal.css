@@ -1,0 +1,122 @@
+#signal{
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #616161;
+
+}
+
+/*     左        */
+#signal_left{
+    height: 30px;
+    flex: 1;
+}
+
+#signal_time{
+    height: 30px;
+    width: 67px;
+    font-size: 13px;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+}
+/*     右        */
+#signal_right{
+    height: 30px;
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#signal_x{
+    height: 15px;
+    width: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+#signal_x .signal_y:nth-child(1){
+    height: 5px;
+    width: 2px;
+    background-color: white;
+    margin-right: 2px;
+}
+#signal_x .signal_y:nth-child(2){
+    height: 8px;
+    width: 2px;
+    background-color: white;
+    margin-right: 2px;
+}
+#signal_x .signal_y:nth-child(3){
+    height: 11px;
+    width: 2px;
+    background-color: white;
+    margin-right: 2px;
+}
+#signal_x .signal_y:nth-child(4){
+    height: 14px;
+    width: 2px;
+    background-color:white;
+
+}
+
+#XG{
+    height: 29px;
+    width: 20px;
+    font-size: 13px;
+    color: white;
+    line-height: 29px;
+    text-align: center;
+
+}
+#battery_area{
+     height: 29px;
+     width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#battery{
+    height: 12px;
+    width: 30px;
+    border: 1px white solid;
+    border-radius: 5px;
+    overflow: hidden;
+
+
+}
+/*#battery_img{*/
+    /*height: 5px;*/
+    /*width: 5px;*/
+    /*position: absolute;*/
+
+
+/*}*/
+#battery_sum{
+    height:12px;
+    width:30px;
+    background-color: red;
+    animation: charge 5s linear infinite;
+}
+@keyframes charge {
+    0% {
+        background-color: red;
+        width: 2px;
+    }
+    30% {
+        background-color: #CDDC39;
+        width: 15px;
+    }
+    70% {
+        background-color: #388E3C;
+        width : 25px;
+    }
+    100% {
+        background-color: green;
+        width : 31px;
+    }
+}
