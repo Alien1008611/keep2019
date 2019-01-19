@@ -134,7 +134,7 @@
 #dynamic_like_1_name_left{
      height: 50px;
      width: 50px;
-    background-image: url(../../img/png/me_1.png);
+    background-image: url(../../img/me/22.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -214,6 +214,7 @@
     text-align: center;
     margin-right: 2px;
     color: gray;
+    font-size: 14px;
 }
 #dynamic_runtime_2{
     height: 30px;
@@ -240,6 +241,7 @@
     line-height: 40px;
     text-align: center;
     color: gray;
+    font-size: 14px;
 }
 
 /*******            **************/
@@ -304,7 +306,7 @@
 
 #add_lesson{
     height: 25px;
-    width: 110px;
+    width: 100px;
     line-height: 25px;
     text-align: center;
     background-color: #43A047;
