@@ -104,7 +104,8 @@
     width: 60px;
     line-height: 50px;
     text-align: center;
-    font-weight: 700;
+    font-weight: 600;
+    font-size: 14px;
 }
 
 /******************           ******************/
@@ -268,6 +269,7 @@
     flex-flow: column;
     justify-content: center;
     margin-left: 11px;
+    font-size: 15px;
 
 
 }
@@ -277,12 +279,13 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    font-size: 13px;
 
  }
 .dynamic_lesson_left1_name{
     height: 23px;
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 16px;
+    font-weight: 400;
     margin-bottom: 4px;
     margin-right: 6px;
 }
@@ -323,18 +326,19 @@
     align-items: center;
     justify-content: center;
     margin-right: 11px;
+
 }
 .dynamic_lesson_right01{
     height: 23px;
     width: 100%;
     text-align: right;
-    font-size: 14px;
+    font-size: 12px;
 }
 .dynamic_lesson_right02{
     height: 23px;
     width: 100%;
     text-align: right;
-    font-size: 12px;
+    font-size: 10px;
     color: gray;
     line-height: 23px;
 
