@@ -302,7 +302,16 @@
     margin-top: 3px;
 }
 
-
+#add_lesson{
+    height: 25px;
+    width: 110px;
+    line-height: 25px;
+    text-align: center;
+    background-color: #43A047;
+    border-radius: 10px;
+    color: white;
+    font-size: 13px;
+}
 
 .dynamic_lesson_right{
     height: 80px;

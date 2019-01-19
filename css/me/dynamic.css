@@ -6,6 +6,7 @@
     align-items: center;
     position: fixed;
     top: 20px;
+    z-index: 9999;
 
 }
 
@@ -27,6 +28,7 @@
     flex: 1;
     width: 100%;
     overflow: scroll;
+    position: relative;
 }
 .me_start_right_div{
     height: 40px;
@@ -34,15 +36,16 @@
     margin-right: 5px;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 60%;
+    background-size: 50%;
     line-height: 40px;
     text-align: right;
-    font-size: 24px;
+    font-size: 19px;
+    color: white;
 }
 
 
 #me_name{
-    height: 215px;
+    height: 175px;
     background-color: #5D4037;
     display: flex;
     flex-flow: column;
@@ -70,8 +73,8 @@
     align-items: center;
 }
 #name_left_img{
-    height: 80px;
-    width: 80px;
+    height: 70px;
+    width: 70px;
     background-color: white;
     border-radius: 50%;
     display: flex;
@@ -79,8 +82,8 @@
     align-items: center;
 }
 #name_left_img1{
-    height: 70px;
-    width: 70px;
+    height: 60px;
+    width: 60px;
     background-color: #E0E0E0;
     background-image: url(../../img/me/22.jpg);
     background-repeat: no-repeat;
@@ -94,14 +97,18 @@
 #name_right{
     height: 100px;
     width: 50%;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+    margin-left: 2px;
+
 }
 #me_nickname{
-    height: 50px;
-
-    line-height: 50px;
+    height: 35px;
+    line-height: 35px;
     text-align: center;
     color: white;
-    font-size: 18px;
+    font-size: 16px;
 }
 #me_nickname_down{
     height: 50px;
@@ -111,19 +118,22 @@
     align-items: center;
 
 }
+
+
+
 /*#me_nickname_down01{*/
 
 /*}*/
 #me_nickname_down02{
-    height: 25px;
+    height: 21px;
     width: 85px;
     background-color: rebeccapurple;
-    border-radius: 30%;
+    border-radius: 15px;
     margin-top: 6px;
     color: white;
-    line-height: 25px;
+    line-height: 21px;
     text-align: center;
-    font-size: 13px;
+    font-size: 11px;
 }
 
 
@@ -132,18 +142,52 @@
     /*width: 40px;*/
     /*background-color: white;*/
     /*background-image: url(../../img/me/big.png);*/
-    /*background-repeat: no-repeat;*/
-    /*background-position: center;*/
-    /*background-size: cover;*/
+
 
 /*}*/
 
 #me_name_down{
-    height: 50px;
+    height: 35px;
+    width: 100%;
     background-image: linear-gradient(to right ,#FFECB3,#FFE082,#FFCA28);
-    margin: 0 30px 0 30px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 155px;
 
 }
+
+#diamond{
+    height: 35px;
+    width: 78px;
+    background-image: url(../../img/me/diamond.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 30%;
+}
+#diamond_name{
+    height: 21px;
+    flex: 1;
+    font-size: 12px;
+    line-height: 21px;
+    text-align: left;
+}
+#open_diamond{
+    height: 20px;
+    width: 70px;
+    background-color: black;
+    color:#FFCA28 ;
+    border-radius: 15px;
+    font-size: 11px;
+    line-height: 21px;
+    text-align: center;
+    margin-right: 15px;
+
+}
+
+
 
 #infor{
     height: 940px;
@@ -151,14 +195,16 @@
     background-color: #ECEFF1;
 }
 #KG{
-    height: 50px;
+    height: 80px;
     display: flex;
     justify-content:space-between;
     background-color:white;
+    align-items: flex-end;
+
 
 }
 .date_name1{
-    height: 50px;
+    height: 60px;
     width: 100px;
     margin-left: 10px;
     line-height: 50px;

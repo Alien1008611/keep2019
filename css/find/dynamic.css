@@ -1,5 +1,5 @@
 #find_dynamic_area01{
-    height: 230px;
+    height: 242px;
     flex: 1;
     display: flex;
     flex-flow: column;
@@ -7,9 +7,7 @@
     align-items: center;
     background-color: #FAFAFA;
     border-radius: 5px;
-    margin-left: 11px;
-    margin-right: 11px;
-    margin-bottom: 10px;
+    margin:10px 10px 10px 10px;
 
 }
 #find_dynamic_area01_up{
@@ -49,7 +47,7 @@
 
 }
 .find_dynamic_area01_down_name{
-    height: 15px;
+    height: 18px;
     line-height: 20px;
     text-align: center;
     font-size: 13px;
@@ -80,10 +78,10 @@
 .find_dynamic_area02_up1{
     height: 70px;
     width:70px;
-    background-image: url(../../img/png/书签.png);
+    background-image: url(../../img/png/lable_1.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     display: flex;
     flex-flow: column;
     justify-content: center;
