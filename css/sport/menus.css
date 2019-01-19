@@ -1,10 +1,14 @@
 #menus{
     height: 55px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: #616161 1px solid;
+    border-bottom: #616161 1px solid;
+    border-top: #616161 1px solid;
     background-color: #FAFAFA;
+    position: fixed;
+    bottom: 0;
 }
 .menus_style{
     height: 52px;
